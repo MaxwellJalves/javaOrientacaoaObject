@@ -17,15 +17,19 @@ public class ReajusteSalarial implements PlanoDeCarreira {
             case MENOS_DE_SEIS_MESES:
                 throw new RegraSalarialException("NÃO É PERMITIDO AUMENTO PARA FUNCIONÁRIOS COM MENOS DE 6 MESES.");
             case UM_ANO:
-                return salario.multiply(BigDecimal.valueOf(Percentual.getPercentual(3)));
+                return salario.add(BigDecimal.valueOf(convertToDouble(salario,Percentual.getPercentual(3)))).setScale(2);
             case UM_ANO_E_SEIS_MESES:
-                return salario.multiply(BigDecimal.valueOf(Percentual.getPercentual(2)));
+                return salario.add(BigDecimal.valueOf(convertToDouble(salario,Percentual.getPercentual(2)))).setScale(2);
             case DOIS_ANOS_OU_MAIS:
-                return salario.multiply(BigDecimal.valueOf(Percentual.getPercentual(1)));
+                return salario.add(BigDecimal.valueOf(convertToDouble(salario,Percentual.getPercentual(1)))).setScale(2);
             default:
                 throw new RegraSalarialException("VALIDO A REGRA DE AJUSTE SALARIAL JUNTO COM O GESTOR ADMINISTRATIVO.");
         }
 
+    }
+
+    private Double convertToDouble(BigDecimal value, Double percentual){
+        return Double.valueOf(value.toString()) * percentual;
     }
 
 }

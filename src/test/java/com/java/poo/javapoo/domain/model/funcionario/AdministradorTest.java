@@ -5,6 +5,8 @@ import com.java.poo.javapoo.domain.enums.TempoDeCasa;
 import com.java.poo.javapoo.domain.funcionario.model.Administrador;
 import org.junit.jupiter.api.Test;
 
+import java.math.BigDecimal;
+
 import static org.junit.jupiter.api.Assertions.*;
 
 
@@ -28,7 +30,7 @@ public class AdministradorTest {
     }
 
     public static Administrador getAdministrador(){
-        Administrador administrador = new Administrador("JOAO ALMEIDA", 3000.00, Departamento.ADMINISTRATIVO, TempoDeCasa.DOIS_ANOS_OU_MAIS);
+        Administrador administrador = new Administrador("JOAO ALMEIDA", BigDecimal.valueOf(3000.00), Departamento.ADMINISTRATIVO, TempoDeCasa.DOIS_ANOS_OU_MAIS);
         return administrador;
     }
 }

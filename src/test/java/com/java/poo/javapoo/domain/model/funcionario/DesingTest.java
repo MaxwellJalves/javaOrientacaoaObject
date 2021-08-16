@@ -7,6 +7,8 @@ import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.Test;
 import org.opentest4j.AssertionFailedError;
 
+import java.math.BigDecimal;
+
 public class DesingTest {
 
     @Test
@@ -29,7 +31,7 @@ public class DesingTest {
     }
 
     public static Design getDesign() {
-        var design = new Design("ANA BEATRIZ", 10000.00, Departamento.DESIGN, TempoDeCasa.UM_ANO);
+        var design = new Design("ANA BEATRIZ", BigDecimal.valueOf(10000.00), Departamento.DESIGN, TempoDeCasa.UM_ANO);
         return design;
     }
 }

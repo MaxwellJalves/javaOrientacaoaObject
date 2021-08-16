@@ -6,12 +6,14 @@ import com.java.poo.javapoo.domain.enums.TempoDeCasa;
 import lombok.AllArgsConstructor;
 import lombok.Data;
 
+import java.math.BigDecimal;
+
 @AllArgsConstructor
 @Data
 public abstract class Funcionario extends ReajusteSalarial {
 
     private String nome;
-    private double salario;
+    private BigDecimal salario;
     private Departamento departamento;
     private TempoDeCasa tempoDeCasa;
 }

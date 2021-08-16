@@ -8,6 +8,8 @@ import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.Test;
 import org.opentest4j.AssertionFailedError;
 
+import java.math.BigDecimal;
+
 public class GerenteTest {
 
     @Test
@@ -29,7 +31,7 @@ public class GerenteTest {
     }
 
     public static Gerente getGerente(){
-        Gerente gerente = new Gerente("ANA BEATRIZ", 10000.00, Departamento.GERENCIA, TempoDeCasa.UM_ANO);
+        Gerente gerente = new Gerente("ANA BEATRIZ", BigDecimal.valueOf(10000.00), Departamento.GERENCIA, TempoDeCasa.UM_ANO);
         return gerente;
     }
 }

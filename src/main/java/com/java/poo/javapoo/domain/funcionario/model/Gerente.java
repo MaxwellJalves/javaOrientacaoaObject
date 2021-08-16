@@ -4,9 +4,11 @@ import com.java.poo.javapoo.domain.enums.Departamento;
 import com.java.poo.javapoo.domain.enums.TempoDeCasa;
 import com.java.poo.javapoo.domain.funcionario.Funcionario;
 
+import java.math.BigDecimal;
+
 public class Gerente extends Funcionario {
 
-    public Gerente(String nome, double salario, Departamento departamento, TempoDeCasa tempoDeCasa) {
+    public Gerente(String nome, BigDecimal salario, Departamento departamento, TempoDeCasa tempoDeCasa) {
         super(nome, salario, departamento, tempoDeCasa);
     }
 }
