@@ -28,7 +28,7 @@ public class GerenteTest {
     }
 
     public static Gerente getGerente(){
-        Gerente gerente = new Gerente("ANA BEATRIZ", 10000.00, Departamento.GERENCIA);
+        Gerente gerente = new Gerente("ANA BEATRIZ", 10000.00, Departamento.GERENCIA,1);
         return gerente;
     }
 }

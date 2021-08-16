@@ -27,7 +27,7 @@ public class AdministradorTest {
     }
 
     public static Administrador getGerente(){
-        Administrador administrador = new Administrador("JOAO ALMEIDA", 3000.00, Departamento.ADMINISTRATIVO);
+        Administrador administrador = new Administrador("JOAO ALMEIDA", 3000.00, Departamento.ADMINISTRATIVO,2);
         return administrador;
     }
 }

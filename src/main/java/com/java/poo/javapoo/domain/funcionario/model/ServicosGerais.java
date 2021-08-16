@@ -5,7 +5,7 @@ import com.java.poo.javapoo.domain.funcionario.Funcionario;
 
 public class ServicosGerais extends Funcionario {
 
-    public ServicosGerais(String nome, double salario, Departamento departamento) {
-        super(nome, salario, departamento);
+    public ServicosGerais(String nome, double salario, Departamento departamento, double tempoDeCasa) {
+        super(nome, salario, departamento, tempoDeCasa);
     }
 }
