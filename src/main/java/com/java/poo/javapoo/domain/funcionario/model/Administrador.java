@@ -2,9 +2,6 @@ package com.java.poo.javapoo.domain.funcionario.model;
 
 import com.java.poo.javapoo.domain.enums.Departamento;
 import com.java.poo.javapoo.domain.funcionario.Funcionario;
-import lombok.AllArgsConstructor;
-import lombok.Data;
-import lombok.experimental.SuperBuilder;
 
 
 
