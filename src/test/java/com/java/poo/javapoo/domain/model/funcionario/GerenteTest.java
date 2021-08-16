@@ -1,7 +1,8 @@
-package com.java.poo.javapoo.domain.model;
+package com.java.poo.javapoo.domain.model.funcionario;
 
 
 import com.java.poo.javapoo.domain.enums.Departamento;
+import com.java.poo.javapoo.domain.enums.TempoDeCasa;
 import com.java.poo.javapoo.domain.funcionario.model.Gerente;
 import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.Test;
@@ -28,7 +29,7 @@ public class GerenteTest {
     }
 
     public static Gerente getGerente(){
-        Gerente gerente = new Gerente("ANA BEATRIZ", 10000.00, Departamento.GERENCIA,1);
+        Gerente gerente = new Gerente("ANA BEATRIZ", 10000.00, Departamento.GERENCIA, TempoDeCasa.UM_ANO);
         return gerente;
     }
 }

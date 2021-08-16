@@ -1,15 +1,15 @@
 package com.java.poo.javapoo.domain.calculo;
-/**
- * @description Retorna o percentual baseado no tempo de vinculo empregaticio do funcionário
- * */
+
+import com.java.poo.javapoo.domain.calculo.exception.RegraPercentualPermitidoException;
+
 public class Percentual {
 
     private Percentual(){
 
     }
     /**
-     * Realizado a criação da regra que define o percentual permitido no sistema.*/
-    public  static  Double getPercentual(int percentual){
+     * Realizando  criação da regra que define o percentual permitido no sistema.*/
+    public  static  Double getPercentual(int percentual) {
 
         switch (percentual){
             case 1:
@@ -20,7 +20,10 @@ public class Percentual {
                 return 0.03;
             case 4:
                 return 0.035;
+            default:
+                throw new RegraPercentualPermitidoException("PERCENTUAL NÃO PERMITIDO , CONSULTE O GESTOR ADMINISTRATIVO PARA OBTER MAIS DETALHES!");
         }
-        return null;
+
     }
+
 }
