@@ -30,7 +30,7 @@ public class ServicosGeraisTest {
     }
 
     public static ServicosGerais getServicosGerais(){
-        var sg = new ServicosGerais("MAXWELL", BigDecimal.valueOf(2222.00), Departamento.SERVICOS_GERAIS, TempoDeCasa.UM_ANO);
+        var sg = new ServicosGerais(1l,"MAXWELL", BigDecimal.valueOf(2222.00), Departamento.SERVICOS_GERAIS, TempoDeCasa.UM_ANO);
         return sg;
     }
 }

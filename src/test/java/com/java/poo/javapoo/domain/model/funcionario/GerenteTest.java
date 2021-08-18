@@ -31,7 +31,7 @@ public class GerenteTest {
     }
 
     public static Gerente getGerente(){
-        Gerente gerente = new Gerente("ANA BEATRIZ", BigDecimal.valueOf(10000.00), Departamento.GERENCIA, TempoDeCasa.UM_ANO);
+        Gerente gerente = new Gerente(1l,"ANA BEATRIZ", BigDecimal.valueOf(10000.00), Departamento.GERENCIA, TempoDeCasa.UM_ANO);
         return gerente;
     }
 }

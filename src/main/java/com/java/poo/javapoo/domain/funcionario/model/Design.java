@@ -9,7 +9,7 @@ import java.math.BigDecimal;
 
 public class Design extends Funcionario {
 
-    public Design(String nome, BigDecimal salario, Departamento departamento, TempoDeCasa tempoDeCasa) {
-        super(nome, salario, departamento, tempoDeCasa);
+    public Design(Long id,String nome, BigDecimal salario, Departamento departamento, TempoDeCasa tempoDeCasa) {
+        super(id,nome, salario, departamento, tempoDeCasa);
     }
 }

@@ -8,7 +8,7 @@ import java.math.BigDecimal;
 
 public class Gerente extends Funcionario {
 
-    public Gerente(String nome, BigDecimal salario, Departamento departamento, TempoDeCasa tempoDeCasa) {
-        super(nome, salario, departamento, tempoDeCasa);
+    public Gerente(Long id,String nome, BigDecimal salario, Departamento departamento, TempoDeCasa tempoDeCasa) {
+        super(id,nome, salario, departamento, tempoDeCasa);
     }
 }

@@ -30,7 +30,7 @@ public class AdministradorTest {
     }
 
     public static Administrador getAdministrador(){
-        Administrador administrador = new Administrador("JOAO ALMEIDA", BigDecimal.valueOf(3000.00), Departamento.ADMINISTRATIVO, TempoDeCasa.DOIS_ANOS_OU_MAIS);
+        Administrador administrador = new Administrador(1l,"JOAO ALMEIDA", BigDecimal.valueOf(3000.00), Departamento.ADMINISTRATIVO, TempoDeCasa.DOIS_ANOS_OU_MAIS);
         return administrador;
     }
 }

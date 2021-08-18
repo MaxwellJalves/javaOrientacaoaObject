@@ -31,7 +31,7 @@ public class DesingTest {
     }
 
     public static Design getDesign() {
-        var design = new Design("ANA BEATRIZ", BigDecimal.valueOf(10000.00), Departamento.DESIGN, TempoDeCasa.UM_ANO);
+        var design = new Design(1l,"ANA BEATRIZ", BigDecimal.valueOf(10000.00), Departamento.DESIGN, TempoDeCasa.UM_ANO);
         return design;
     }
 }

@@ -9,7 +9,7 @@ import java.math.BigDecimal;
 
 public class Administrador extends Funcionario {
 
-    public Administrador(String nome, BigDecimal salario, Departamento departamento, TempoDeCasa tempoDeCasa) {
-        super(nome, salario, departamento, tempoDeCasa);
+    public Administrador(Long id,String nome, BigDecimal salario, Departamento departamento, TempoDeCasa tempoDeCasa) {
+        super(id,nome, salario, departamento, tempoDeCasa);
     }
 }
