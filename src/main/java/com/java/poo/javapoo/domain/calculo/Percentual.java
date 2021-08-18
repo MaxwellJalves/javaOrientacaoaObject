@@ -4,16 +4,18 @@ import com.java.poo.javapoo.domain.calculo.exception.RegraPercentualPermitidoExc
 
 public class Percentual {
 
-    private Percentual(){
+    private Percentual() {
 
     }
-    /**
-     * Realizando  criação da regra que define o percentual permitido no sistema.*/
-    public  static  Double getPercentual(int percentual) {
 
-        switch (percentual){
+    /**
+     * Realizando  criação da regra que define o percentual permitido no sistema.
+     */
+    public static Double getPercentual(int percentual) {
+
+        switch (percentual) {
             case 1:
-                return  0.01;
+                return 0.01;
             case 2:
                 return 0.02;
             case 3:

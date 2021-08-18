@@ -19,7 +19,7 @@ public class ServicosGeraisTest {
     @Test
     void deve_retornar_sucesso_para_analise_dos_campos_informados(){
         Assertions.assertEquals("MAXWELL", getServicosGerais().getNome());
-        Assertions.assertEquals(2222.00, getServicosGerais().getSalario());
+        Assertions.assertEquals(BigDecimal.valueOf(2222.00), getServicosGerais().getSalario());
         Assertions.assertEquals("SERVICOS_GERAIS", getServicosGerais().getDepartamento().toString());
     }
 

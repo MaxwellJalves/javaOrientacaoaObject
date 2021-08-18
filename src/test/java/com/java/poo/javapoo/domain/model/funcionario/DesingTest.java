@@ -19,7 +19,7 @@ public class DesingTest {
     @Test
     void deve_retornar_sucesso_para_analise_dos_campos_informados() {
         Assertions.assertEquals("ANA BEATRIZ", getDesign().getNome());
-        Assertions.assertEquals(10000.00, getDesign().getSalario());
+        Assertions.assertEquals(BigDecimal.valueOf(10000.00), getDesign().getSalario());
         Assertions.assertEquals("DESIGN", getDesign().getDepartamento().toString());
     }
 

@@ -5,9 +5,11 @@ C:\Users\Max\Desktop\java-poo-refatoracao\javaOrientacaoaObject\src\main\java\co
 C:\Users\Max\Desktop\java-poo-refatoracao\javaOrientacaoaObject\src\main\java\com\java\poo\javapoo\domain\funcionario\Funcionario.java
 C:\Users\Max\Desktop\java-poo-refatoracao\javaOrientacaoaObject\src\main\java\com\java\poo\javapoo\domain\calculo\Percentual.java
 C:\Users\Max\Desktop\java-poo-refatoracao\javaOrientacaoaObject\src\main\java\com\java\poo\javapoo\domain\calculo\PlanoDeCarreira.java
+C:\Users\Max\Desktop\java-poo-refatoracao\javaOrientacaoaObject\src\main\java\com\java\poo\javapoo\domain\funcionario\usecase\obter_aumento_salarial\ObtemAumentoSalarialGerente.java
 C:\Users\Max\Desktop\java-poo-refatoracao\javaOrientacaoaObject\src\main\java\com\java\poo\javapoo\domain\calculo\exception\RegraPercentualPermitidoException.java
 C:\Users\Max\Desktop\java-poo-refatoracao\javaOrientacaoaObject\src\main\java\com\java\poo\javapoo\domain\enums\TempoDeCasa.java
 C:\Users\Max\Desktop\java-poo-refatoracao\javaOrientacaoaObject\src\main\java\com\java\poo\javapoo\JavaPooApplication.java
 C:\Users\Max\Desktop\java-poo-refatoracao\javaOrientacaoaObject\src\main\java\com\java\poo\javapoo\domain\enums\Departamento.java
 C:\Users\Max\Desktop\java-poo-refatoracao\javaOrientacaoaObject\src\main\java\com\java\poo\javapoo\domain\calculo\ReajusteSalarial.java
 C:\Users\Max\Desktop\java-poo-refatoracao\javaOrientacaoaObject\src\main\java\com\java\poo\javapoo\domain\funcionario\model\Administrador.java
+C:\Users\Max\Desktop\java-poo-refatoracao\javaOrientacaoaObject\src\main\java\com\java\poo\javapoo\application\controller\FuncionarioController.java

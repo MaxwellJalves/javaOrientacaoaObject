@@ -20,7 +20,7 @@ public class AdministradorTest {
     @Test
     void deve_retornar_sucesso_para_analise_dos_campos_informados(){
         assertEquals("JOAO ALMEIDA", getAdministrador().getNome());
-        assertEquals(3000.00, getAdministrador().getSalario());
+        assertEquals(BigDecimal.valueOf(3000.00), getAdministrador().getSalario());
         assertEquals("ADMINISTRATIVO", getAdministrador().getDepartamento().toString());
     }
 

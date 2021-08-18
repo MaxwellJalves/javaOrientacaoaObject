@@ -20,7 +20,7 @@ public class GerenteTest {
     @Test
     void deve_retornar_sucesso_para_analise_dos_campos_informados(){
     Assertions.assertEquals("ANA BEATRIZ",getGerente().getNome());
-        Assertions.assertEquals(10000.00,getGerente().getSalario());
+        Assertions.assertEquals(BigDecimal.valueOf(10000.00),getGerente().getSalario());
         Assertions.assertEquals("GERENCIA",getGerente().getDepartamento().toString());
     }
 
